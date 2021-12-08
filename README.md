@@ -45,6 +45,7 @@ Lalu direpresentasikan dengan tabel, didapatkan data sebagai berikut.
 | A7 | Fukurou → Guanhao | 201 | 24 |
 | A8 | Maingate + Jorge → Guanhao | 3 | 29 |
 | Total |  | 1314 | 21 |
+
 ![tabel subnetting modul](https://user-images.githubusercontent.com/81345045/145210165-a40b1ac3-1b2f-4795-9dd4-95a89c6738f2.png) \
 Setelah itu, kita menghitung IP dari setiap subnet. Dari jumlah IP keseluruhan, didapatkan sebesar 1314 IP, jika dikonversikan ke dalam Netmask, didapatkan Netmask = /21. Pada tabel di modul, diketahui bahwa Netmask /21 memiliki Wildcard 0.0.7.255, di mana digit ketiga yaitu 7, karena dimulai dari 0, maka range digit ketiga adalah 0 - 7, yang menandakan ada 8 macam untuk digit ketiga. Dalam perhitungan ini, kita menggunakan tree agar mudah. Prefix IP yang kami gunakan adalah 192.204 dengan IP besar 192.204.0.0 /21.
 Dari IP 192.204.0.0 /21 ini, kita membagi rangenya menjadi 2 sama rata. Di sisi kiri memiliki range IP 192.204.0.0 /22 hingga 192.204.3.0 /22. Sedangkan di sisi kanan, rangenya adalah 192.204.4.0 /22 hingga 192.204.7.0 /22. Lalu kita gunakan IP 192.204.0.0/22 untuk subnet A3. Kemudian lakukan pemecahan dengan cara yang sama hingga semua subnet mendapat IP seperti pada gambar di bawah ini.
