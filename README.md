@@ -4,7 +4,7 @@ Setelah kalian mempelajari semua modul yang telah diberikan, Luffy ingin meminta
 
 A. Tugas pertama kalian yaitu membuat topologi jaringan sesuai dengan rancangan yang diberikan Luffy dibawah ini:
 
-[https://lh5.googleusercontent.com/esmHUvvVWK7buNyaT-Pek8VFxEI2qyGjuOTH4wUa3_-irjaT7_EOA56gnBbaDYeGvVImn9TZUpfKffVn_uKfYLuMmY3Ud0UbAuIWs-yV0eJMYKjtaDIGDj_yMfwxj-MRC9gYVnYI](https://lh5.googleusercontent.com/esmHUvvVWK7buNyaT-Pek8VFxEI2qyGjuOTH4wUa3_-irjaT7_EOA56gnBbaDYeGvVImn9TZUpfKffVn_uKfYLuMmY3Ud0UbAuIWs-yV0eJMYKjtaDIGDj_yMfwxj-MRC9gYVnYI)
+![image](https://user-images.githubusercontent.com/7587945/145675111-a3946a4b-e82d-4789-9879-8ad76bc8c2ff.png)
 
 ## Hasil GNS3
 
