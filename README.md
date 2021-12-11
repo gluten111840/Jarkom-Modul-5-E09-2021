@@ -1,5 +1,10 @@
 # Jarkom-Modul-5-E09-2021
 
+## Nama Anggota Kelompok : 
+## 1. Dwinanda Bagoes Ansori (05111940000010) 
+## 2. Bayu Eka Prawira (05111940000042) 
+## 3. Kelvin Andersen (05111940000080)
+
 Setelah kalian mempelajari semua modul yang telah diberikan, Luffy ingin meminta bantuan untuk terakhir kalinya kepada kalian. Dan kalian dengan senang hati mau membantu Luffy.
 
 A. Tugas pertama kalian yaitu membuat topologi jaringan sesuai dengan rancangan yang diberikan Luffy dibawah ini:
@@ -355,6 +360,7 @@ apt-get install isc-dhcp-relay -y
     Memasukkan iptables berikut ke dalam DHCP Server (Jipangu) serta DNS Server (Doriki)
     
     ```bash
+    iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
     iptables -A INPUT -p icmp -m connlimit --connlimit-above 3 --connlimit-mask 0 -j DROP
     ```
     
